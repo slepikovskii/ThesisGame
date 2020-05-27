@@ -18,7 +18,7 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(dialogueactive && Input.GetKeyDown(KeyCode.E))
+        if(dialogueactive && Input.GetKeyUp(KeyCode.E))
         {
             dBox.SetActive(false);
             dialogueactive = false;
@@ -30,4 +30,5 @@ public class DialogueManager : MonoBehaviour
         dBox.SetActive(true);
         dText.text = dialogue;
     }
+   
 }
