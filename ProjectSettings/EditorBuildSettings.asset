@@ -9,12 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 957d41546846c3646928334b2862c50b
   - enabled: 1
-    path: Assets/Scenes/Street.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/Bedroom.unity
     guid: c349746a4a5e3ed429912b3cd67bd485
   - enabled: 1
     path: Assets/Scenes/Piggy Banks.unity
     guid: beb435e53c39dd245a271e9ab5820bd5
+  - enabled: 1
+    path: Assets/Scenes/Street.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
